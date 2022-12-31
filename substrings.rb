@@ -14,5 +14,5 @@ def substrings(string, dictionary)
   end
 end
 
-dictionary = ["be", "below", "low"]
+dictionary = ["be", "below", "low", "e"]
 puts substrings("bebelow lowbelow", dictionary)
