@@ -1,7 +1,7 @@
 def pick_profit_days(stock_prices)
-  buying_day = stock_prices[0]
-  selling_day = stock_prices[1]
-  profit = selling_day - buying_day
+  buying_day = 0
+  selling_day = 0
+  profit = 0
 
   for potential_buying_day in stock_prices
     potential_selling_days = stock_prices.select do |element| 
